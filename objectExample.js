@@ -18,5 +18,10 @@ var person = {
 	}
 }
 
+// these are the same thing
 person.sayName();
 console.log(person.name)
+
+//methods are functions inside an object
+
+
