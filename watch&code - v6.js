@@ -30,8 +30,8 @@ var todoList = {
   },
   
   deleteTodo: function (position) {
-	  this.todos.splice(position, 1)
-	  this.displayTodos();
+    this.todos.splice(position, 1)
+    this.displayTodos();
   },
 
   toggleCompleted: function (position) {
@@ -59,8 +59,9 @@ var todoList = {
         }
     }
   }
-
 };
+
+
 
 
 
